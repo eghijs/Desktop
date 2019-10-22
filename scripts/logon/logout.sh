@@ -15,6 +15,7 @@ mkhomedir_helper username
 
 # Criando diretórios padrão
 xdg-user-dirs-update
+sudo -u john xdg-user-dirs-update
 
 # Define permissao de usuario e grupo
 chown -R L_USER:$L_USER /home/L_USER
